@@ -1,0 +1,24 @@
+# 환경변수!
+.env
+.mcp.json
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Node
+node_modules/
+frontend/dist/
+
+# 업로드 파일
+backend/uploads/
+
+# 데이터 파일 (로컬 개발용)
+backend/data/expenses.json
+
+# OS
+.DS_Store
+Thumbs.db
