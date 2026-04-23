@@ -1,0 +1,28 @@
+- generic [ref=e3]:
+  - generic:
+    - img
+  - generic [ref=e4]:
+    - generic [ref=e8]:
+      - heading "영수증 지출 관리 API 1.0.0 OAS 3.1" [level=2] [ref=e9]:
+        - text: 영수증 지출 관리 API
+        - generic [ref=e10]:
+          - generic [ref=e12]: 1.0.0
+          - generic [ref=e14]: OAS 3.1
+      - link "/openapi.json" [ref=e15] [cursor=pointer]:
+        - /url: /openapi.json
+        - generic [ref=e16]: /openapi.json
+    - generic [ref=e21]:
+      - heading "default Collapse operation" [level=3] [ref=e22] [cursor=pointer]:
+        - link "default" [ref=e23]:
+          - /url: "#/default"
+        - button "Collapse operation" [expanded] [ref=e24]:
+          - img [ref=e25]
+      - generic [ref=e31] [cursor=pointer]:
+        - button "get /" [ref=e32]:
+          - generic [ref=e33]: GET
+          - link / [ref=e35]:
+            - /url: "#/default/health_check__get"
+          - generic [ref=e36]: Health Check
+        - generic "Copy to clipboard"
+        - button "get /" [ref=e39]:
+          - img [ref=e40]
